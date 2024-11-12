@@ -1,0 +1,9 @@
+# Usar LF en archivos de código fuente
+*.py text eol=lf
+*.md text eol=lf
+*.po text eol=lf
+
+# Para archivos binarios, desactivar la conversión de finales de línea
+*.jpg binary
+*.png binary
+*.pdf binary
